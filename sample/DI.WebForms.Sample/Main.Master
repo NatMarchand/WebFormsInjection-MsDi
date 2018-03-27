@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" CodeBehind="Main.master.cs" Inherits="Autofac.Integration.Web.Sample.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div><%=Dependency.GetFormattedTime() %></div>
+        <div>Dependency #<%=Dependency.Id %></div>
+    </form>
+</body>
+</html>
