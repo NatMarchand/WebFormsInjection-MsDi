@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" CodeBehind="Index.aspx.cs" Inherits="Autofac.Integration.Web.Sample.Index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" CodeBehind="Index.aspx.cs" Inherits="Microsoft.Extensions.DependencyInjection.WebForms.Sample.Index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderPlaceHolder" runat="server">
 </asp:Content>

@@ -7,8 +7,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-
 namespace Microsoft.Extensions.DependencyInjection.WebForms.Sample {
     
     

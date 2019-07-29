@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" CodeBehind="Main.master.cs" Inherits="Autofac.Integration.Web.Sample.Main" %>
+﻿<%@ Master Language="C#" CodeBehind="Main.master.cs" Inherits="Microsoft.Extensions.DependencyInjection.WebForms.Sample.Main" %>
 
 <!DOCTYPE html>
 
