@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Autofac.Integration.Web.Sample.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Microsoft.Extensions.DependencyInjection.WebForms.Sample.Global" Language="C#" %>
